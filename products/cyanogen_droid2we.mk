@@ -4,6 +4,9 @@ $(call inherit-product, device/motorola/droid2we/droid2we.mk)
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
+#Inherit common GSM stuff
+$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+
 #
 # Setup device specific product configuration.
 #
